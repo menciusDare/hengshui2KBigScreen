@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="29px" viewBox="0 0 29 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>黑臭水体3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#A7DE6A" offset="0%"></stop>
+            <stop stop-color="#6FCA78" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#A4DD6B" offset="0%"></stop>
+            <stop stop-color="#79CE75" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="长春市生态环境智慧监管平台-切图" transform="translate(-935.000000, -329.000000)">
+            <g id="黑臭水体3" transform="translate(936.000000, 330.000000)">
+                <circle id="椭圆形备份" stroke="#7DD075" fill="#FFFFFF" fill-rule="nonzero" cx="13.5" cy="13.5" r="13.5"></circle>
+                <g id="编组-4" transform="translate(5.000000, 8.000000)">
+                    <path d="M5.56625242,9.973 L5.15181139,11.9994472 L0.000543529614,11.9994472 C-0.0340486365,10.7038524 0.626468557,9.19701935 1.98209511,7.47894816 C4.01553494,4.90184138 4.75899074,5.21102539 5.5523895,5.21102539 C6.06350877,5.21102539 6.9038987,5.68087455 7.43719612,6.13803818 C7.51079486,5.74831768 7.54749713,5.35873526 7.54749713,4.96972114 C7.54749713,3.31216827 6.88115546,1.65559456 5.54847214,3.73034936e-14 L14.2792524,4.97379915e-14 C15.7814669,4.97379915e-14 16.9992524,2.23260671 16.9992524,4.98666667 C16.9992524,7.74072662 15.7814669,9.97333333 14.2792524,9.97333333 L14.2792524,9.97333333 L5.56625242,9.973 Z M5.84631432,8.60705468 L5.57325242,9.941 L5.77673451,9.67728951 C6.14564339,9.18406165 6.45691026,8.69172634 6.71053511,8.20028358 L6.84437627,7.92814856 C6.5653482,8.13167289 6.23266088,8.35797494 5.84631432,8.60705468 Z" id="形状结合" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                    <ellipse id="椭圆形备份-9" stroke="url(#linearGradient-2)" cx="5.21258575" cy="4.98666667" rx="2.22" ry="4.48666667"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

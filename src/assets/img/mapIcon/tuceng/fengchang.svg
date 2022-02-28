@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="23px" viewBox="0 0 25 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>风场</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="水环境" transform="translate(-828.000000, -425.000000)" fill="#FFFFFF">
+            <g id="编组-11" transform="translate(783.000000, 55.000000)">
+                <g id="风场" transform="translate(45.307533, 370.800000)">
+                    <polygon id="路径-39" points="11.7516652 0 11.7516652 11.1593149 18.3516652 1.20987773"></polygon>
+                    <polygon id="路径-39" transform="translate(8.451665, 16.379657) scale(-1, -1) translate(-8.451665, -16.379657) " points="5.15166519 10.8 5.15166519 21.9593149 11.7516652 12.0098777"></polygon>
+                    <g id="编组-15" transform="translate(11.900000, 11.210880) rotate(-270.000000) translate(-11.900000, -11.210880) translate(4.900000, -0.289120)">
+                        <polygon id="路径-39" points="7.14462777 0.971907184 7.14462777 12.1312221 13.7446278 2.18178491"></polygon>
+                        <polygon id="路径-39" transform="translate(3.844628, 17.220343) scale(-1, -1) translate(-3.844628, -17.220343) " points="0.544627771 11.6406851 0.544627771 22.8 7.14462777 12.8505628"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

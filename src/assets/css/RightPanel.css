@@ -1,0 +1,307 @@
+@charset "UTF-8";
+.rightPanel{
+ width:2570px;
+ height:1620px;
+ background:cyan;
+ margin-left:30px;
+}
+.rightPanelTab{
+  height: 29px;
+}
+.rightPanelTabLi{
+  padding: 0 33px;
+  line-height: 29px;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, .12);
+  margin-right: 11px;
+  font-size: 16px;
+}
+.rightPanelTabLi.selected{
+  background: linear-gradient(119deg, #007EE8 0%, #0048CC 100%);
+}
+.rightPanelMain{
+  margin-top: 9px;
+  height: calc(100% - 30px);
+}
+.panelMainBlock{
+  background: #000000 linear-gradient(1deg, rgba(19, 89, 181, 0.33) 0%, rgba(2, 2, 2, 0.33) 100%);
+  box-shadow: 0px 1px 5px 0px rgba(255, 255, 255, 0.2);
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  height: 100%;
+}
+.waterQuality{
+  width: 580px;
+  padding: 22px 0 44px;
+  height: 100%;
+  box-sizing: border-box;
+}
+.sectionCompliance{
+  width: 580px;
+  padding: 22px 0 13px;
+  height: 100%;
+  box-sizing: border-box;
+}
+.sectionCompliance.panelMainBlock{
+  background: none;
+}
+.titleName{
+  line-height: 33px;
+  color: #fff;
+  font-size: 24px;
+  padding: 0 22px;
+}
+.water .waterQualityPercent{
+  width: 578px;
+  height: 580px;
+  background: url("../../assets/img/waterIcon/waterQualityBlock.png") no-repeat center;
+  background-size: 100%;
+  margin-top: 41px;
+  margin-bottom: 26px;
+}
+.xietong .waterQualityPercent{
+  width: 578px;
+  height: 580px;
+  background: url("../../assets/img/waterIcon/xietongPanel.png") no-repeat center;
+  background-size: 100%;
+  margin-top: 41px;
+  margin-bottom: 26px;
+}
+.air .waterQualityPercent{
+  width: 578px;
+  height: 580px;
+  background: url("../../assets/img/waterIcon/airPanel.png") no-repeat center;
+  background-size: 100%;
+  margin-top: 41px;
+  margin-bottom: 26px;
+}
+.zonghe .waterQualityPercent{
+  width: 578px;
+  height: 580px;
+  background: url("../../assets/img/waterIcon/zonghePanel.png") no-repeat center;
+  background-size: 100%;
+  margin-top: 41px;
+  margin-bottom: 26px;
+}
+.level{
+  text-align: center;
+  background: rgba(224, 32, 32, 1);
+  font-size: 32px;
+  line-height: 48px;
+  border-radius: 24px;
+  width: 150px;
+  box-sizing: border-box;
+  margin: 0 auto 15px;
+}
+.percent{
+  font-size: 89px;
+  font-family: DINPro-Bold, DINPro;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 115px;
+}
+.percent span{
+  font-size: 49px;
+}
+.detailIcon{
+  color: rgba(50, 197, 255, 1);
+}
+.waterQualityDetail{
+  padding: 0 56px 0 26px;
+  box-sizing: border-box;
+}
+.waterQualityIcon{
+  width: 53px;
+  height: 53px;
+  border: 1px solid #02267D;
+  margin-right: 14px;
+  border-radius: 100%;
+}
+.waterQualityIcon .countryNumIcon{
+  width: 30px;
+  height: 21px;
+  background: url("../../assets/img/waterIcon/dituIcon.png") no-repeat center;
+  background-size: 100%;
+}
+.waterQualityIcon .waterNumIcon,.waterQualityIcon .dayRateIcon{
+  width: 30px;
+  height: 21px;
+  background: url("../../assets/img/waterIcon/waterzhongheIcon.png") no-repeat center;
+  background-size: 100%;
+}
+.waterQualityIcon .onlineCountIcon{
+  width: 30px;
+  height: 28px;
+  background: url("../../assets/img/diaodu/zaixian.png") no-repeat center;
+  background-size: 100%;
+}
+.waterQualityIcon .offlineCountIcon{
+  width: 30px;
+  height: 28px;
+  background: url("../../assets/img/diaodu/lixian.png") no-repeat center;
+  background-size: 100%;
+}
+.waterQualityIcon .percentIcon{
+  width: 30px;
+  height: 28px;
+  background: url("../../assets/img/diaodu/renwu.png") no-repeat center;
+  background-size: 100%;
+}
+.waterQualityDetail .name{
+  font-size: 18px;
+}
+.waterQualityDetail .num{
+  font-size: 45px;
+  font-weight: 600;
+}
+.waterQualityDetail .num.ratePercent{
+  font-size: 20px;
+}
+.company{
+  font-size: 30px;
+  color: rgba(129, 129, 129, 1);
+}
+.company.ratePercent{
+  font-size: 20px;
+}
+.detailButton{
+  margin-top: 27px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, .5);
+}
+.detailIcon{
+  margin-left: 10px;
+}
+.sectionCompliance .changeTable{
+  padding: 0 7px;
+  box-sizing: border-box;
+}
+.waterLevel{
+  padding: 0 7px;
+  box-sizing: border-box;
+}
+.waterLevelList{
+  height: 74px;
+  width: 110px;
+  padding: 0px 13px;
+  box-sizing: border-box;
+  background: rgba(169, 168, 239, .12);
+  border-radius: 14px;
+  font-size: 18px;
+}
+.smallTitle{
+  font-size: 18px;
+  padding: 5px 0;
+  display: block;
+}
+.levelRank{
+  width: 1204px;
+  height: 444px;
+  background: rgba(0, 0, 0, 1);
+  padding: 22px;
+  box-sizing: border-box;
+  position: relative;
+}
+.levelRank .titleName, .xianjiRate .titleName{
+  padding: 0;
+  margin-bottom: 10px;
+}
+.smallTitleDel{
+  color: #BEBEBE;
+}
+.querySelected{
+}
+.introducePanel{
+  position: absolute;
+  top: 116px;
+}
+.levelRankEchrts{
+  width: 100%;
+  height: calc(100% - 60px);
+}
+.introducePanelLis{
+  width: 210px;
+  padding: 9px 13px;
+  height: 80px;
+  box-sizing: border-box;
+  background: rgba(45, 46, 61, .7);
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.xianjiRate .gongneng.el-table td{
+  padding: 12px 0;
+}
+.introducePanelLis .num{
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 24px;
+}
+.range{
+  height: 24px;
+  padding: 0 11px;
+  line-height: 24px;
+  background: rgba(99, 102, 118, .3);
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+.bottomMain{
+  height: calc(100% - 454px);
+}
+.xianjiRate.panelMainBlock{
+  background: none;
+}
+.xianjiRate{
+  width: 590px;
+  padding: 23px;
+  box-sizing: border-box;
+}
+.zhuzhuangEcharts{
+  height: calc(100% - 60px);
+  width: 100%;
+}
+.querySelected .el-input__inner{
+  background: rgba(255, 255, 255, .12);
+  color: #fff;
+  border: none;
+  width: 122px;
+}
+.el-date-editor.el-input, .el-date-editor.el-input__inner{
+  width: 122px;
+}
+.heliu.el-table td{
+  padding: 5px 0;
+}
+.gongneng.el-table td{
+  padding: 8px 0;
+}
+
+/*空气质量*/
+.panelCommon{
+  border-radius: 18px;
+  box-shadow: 0px 1px 5px 0px rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.w590{
+  width: 590px;
+  height: 100%;
+}
+.p22-6{
+  padding: 22px 6px 6px;
+  box-sizing: border-box;
+}
+.pollutantMain .el-select{
+  width: 122px;
+  margin-left: 8px;
+}
+.pollutantMain .el-input__inner{
+  background: rgba(255, 255, 255, .12);
+  border: none;
+  color: rgba(255, 255, 255, .7);
+}
+.videoMainCon{
+  width: 100%;
+  height: 353px;
+  margin-top: 16px;
+  margin-bottom: 13px;
+}

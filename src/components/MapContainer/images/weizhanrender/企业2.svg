@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>企业2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="大气-圆形icon" transform="translate(-101.000000, -157.000000)">
+            <g id="企业2" transform="translate(101.000000, 157.000000)">
+                <rect id="形状结合备份-18" stroke="#071E31" stroke-width="0.8" fill="#F8C900" x="0.4" y="0.4" width="23.2" height="23.2" rx="11.6"></rect>
+                <path d="M12,5 C15.8659932,5 19,8.13400675 19,12 C19,15.8659932 15.8659932,19 12,19 C8.13400675,19 5,15.8659932 5,12 C5,8.13400675 8.13400675,5 12,5 Z M11.3,7.8 L9.2,7.8 C8.81340068,7.8 8.5,8.11340068 8.5,8.5 L8.5,8.5 L8.5,15.5 L16.2,15.5 L16.2,12.7 C16.2,12.3134007 15.8865993,12 15.5,12 L15.5,12 L13.4,12 C13.0134007,12 12.7,12.3134007 12.7,12.7 L12.7,12.7 L12.699,14.8 L12,14.8 L12,8.5 C12,8.11340068 11.6865993,7.8 11.3,7.8 L11.3,7.8 Z M10.6,13.4 L10.6,14.1 L9.9,14.1 L9.9,13.4 L10.6,13.4 Z M14.8,13.4 L14.8,14.1 L14.1,14.1 L14.1,13.4 L14.8,13.4 Z M10.6,11.3 L10.6,12 L9.9,12 L9.9,11.3 L10.6,11.3 Z M10.6,9.2 L10.6,9.9 L9.9,9.9 L9.9,9.2 L10.6,9.2 Z" id="形状结合" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

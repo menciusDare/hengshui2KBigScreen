@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>道路4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="大气-圆形icon" transform="translate(-203.000000, -238.000000)">
+            <g id="道路4" transform="translate(203.000000, 238.000000)">
+                <rect id="形状结合备份-20" stroke="#071E31" stroke-width="0.8" fill="#EA3522" x="0.4" y="0.4" width="23.2" height="23.2" rx="11.6"></rect>
+                <path d="M12,5 C15.8659932,5 19,8.13400675 19,12 C19,15.8659932 15.8659932,19 12,19 C8.13400675,19 5,15.8659932 5,12 C5,8.13400675 8.13400675,5 12,5 Z M11.1833333,8.5 L9.42435897,8.5 L7.1,14.8 L11.183,14.8 L11.183,13.225 L12.816,13.225 L12.816,14.8 L16.9,14.8 L14.575641,8.5 L12.8166667,8.5 L12.816,10.075 L11.183,10.075 L11.1833333,8.5 Z M12.816,10.862 L12.816,12.437 L11.183,12.437 L11.183,10.862 L12.816,10.862 Z" id="形状结合" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

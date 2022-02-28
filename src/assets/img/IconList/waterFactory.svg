@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.1 (89650) - https://sketch.com -->
+    <title>污水厂1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#3E927B" offset="0%"></stop>
+            <stop stop-color="#5433FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#3AA066" offset="0%"></stop>
+            <stop stop-color="#5433FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="污水厂1" fill-rule="nonzero">
+            <circle id="椭圆形" stroke="url(#linearGradient-1)" fill="#FFFFFF" cx="14" cy="14" r="13.5"></circle>
+            <path d="M21.5782204,8 C22.2488519,8 22.7925061,8.54365423 22.7925061,9.21428571 L22.7925061,18.7857143 C22.7925061,19.4563458 22.2488519,20 21.5782204,20 C20.9075889,20 20.3639347,19.4563458 20.3639347,18.7857143 L20.3639347,9.21428571 C20.3639347,8.54365423 20.9075889,8 21.5782204,8 Z M7.00679181,8 C7.67742329,8 8.22107752,8.54365423 8.22107752,9.21428571 L8.22107752,18.7857143 C8.22107752,19.4563458 7.67742329,20 7.00679181,20 C6.33616033,20 5.79250609,19.4563458 5.79250609,18.7857143 L5.79250609,9.21428571 C5.79250609,8.54365423 6.33616033,8 7.00679181,8 Z M19.7567918,9.2 L19.7567918,18.8 L8.82822038,18.8 L8.82822038,9.2 L19.7567918,9.2 Z" id="形状结合" fill="url(#linearGradient-2)"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,1899 @@
+/* 公共样式 */
+.flexRow{
+  display: flex;
+}
+.height951{
+  height: 951px;
+}
+.rowCenter{
+  display: flex;
+  justify-content: center;
+}
+.rowSpace{
+  display: flex;
+  justify-content: space-between;
+}
+.rowWrap{
+  flex-wrap: wrap;
+}
+.alginCenter{
+  display: flex;
+  align-items: center;
+}
+.lu{
+  color: rgba(29, 206, 188, 1);
+}
+.yellow{
+  color: #F8C900;
+}
+.red{
+  color: #8E1C10;
+}
+.bgRed{
+  background-color: #8E1C10;
+  border-radius: 8px;
+}
+.padding10{
+  padding: 10px;
+}
+.mR20{
+  margin-right: 20px;
+}
+.textTitle.padding-left0{
+  padding-left: 0;
+}
+.bg0{
+  background: rgba(0, 0, 0, .5);
+}
+/* 切换 */
+.tabSelected{
+  border-radius: 9px;
+  border: 1px solid rgba(53, 126, 255, .5);
+  font-size: 28px;
+  width: 660px;
+  overflow: hidden;
+  margin-bottom: 36px;
+}
+.tabSelected li{
+  width: 220px;
+  height: 53px;
+  line-height: 53px;
+  text-align: center;
+}
+.tabSelected li.selected{
+  background: rgba(56, 94, 210, 1);
+}
+.height1150{
+  height: 1150px;
+}
+/* 单选按钮改变 */
+.atmosphericQuality.axeH li{
+  padding: 17px 23px;
+  font-size: 24px;
+}
+.axeHeadLake .el-radio-group{
+  width: 100%;
+  padding: 13px 20px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(32, 41, 63, 0.8);
+}
+.changeRadio.check-box>div{
+  padding: 13px 10px;
+  box-sizing: border-box;
+}
+.changeRadio.check-box input{
+  width: 20px;
+  height: 20px;
+  background: rgba(245,245,245,.2);
+  border-radius: 2px;
+}
+.changeRadio.check-box span{
+  color: #fff;
+  font-size: 24px;
+}
+.changeRadio .el-radio-group{
+  padding: 13px 20px;
+  box-sizing: border-box;
+}
+.changeRadio .el-radio-group:last-child{
+  border-bottom: 0;
+}
+.changeRadio .el-radio__label{
+  font-size: 24px;
+  color: #fff;
+}
+.changeRadio .el-radio__inner{
+  border-radius: 0;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(255, 255, 255, .2);
+  border-color: rgba(255, 255, 255, .2);
+  top: -2px;
+}
+.changeRadio .el-radio__input.is-checked .el-radio__inner{
+  background: rgba(56, 94, 210, 1);
+  border-color: rgba(56, 94, 210, 1);
+}
+.changeRadio .el-radio__input.is-checked  .el-radio__inner::after{
+  height: 9px;
+  left: 6px;
+  width: 3px;
+  border: 2px solid #fff;
+  border-left: 0;
+  border-top: 0;
+  top: 2px;
+  transform:rotate(45deg) scaleY(1);
+  transform-origin: center;
+  background-color: rgba(56, 94, 210, 1);
+  border-radius: 0;
+}
+
+
+.axeHeadLake .el-checkbox-group{
+  width: 100%;
+  padding: 13px 20px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(32, 41, 63, 0.8);
+}
+.changeRadio .el-checkbox-group{
+  padding: 13px 20px;
+  box-sizing: border-box;
+}
+.changeRadio .el-checkbox-group:last-child{
+  border-bottom: 0;
+}
+.changeRadio .el-checkbox__label{
+  font-size: 24px;
+  color: #fff;
+}
+.changeRadio .el-checkbox__inner{
+  border-radius: 0;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(255, 255, 255, .2);
+  border-color: rgba(255, 255, 255, .2);
+  top: -2px;
+}
+.changeRadio .el-checkbox__input.is-checked .el-checkbox__inner{
+  background: rgba(56, 94, 210, 1);
+  border-color: rgba(56, 94, 210, 1);
+}
+.changeRadio .el-checkbox__input.is-checked  .el-checkbox__inner::after{
+  height: 9px;
+  left: 6px;
+  width: 3px;
+  border: 2px solid #fff;
+  border-left: 0;
+  border-top: 0;
+  top: 2px;
+  transform:rotate(45deg) scaleY(1);
+  transform-origin: center;
+  background-color: rgba(56, 94, 210, 1);
+  border-radius: 0;
+}
+/* 跳转 */
+.JumpMain{
+  width: 1246px;
+  height: 70px;
+  line-height: 70px;
+  position: absolute;
+  left: 50%;
+  z-index: 10;
+  top: 156px;
+  margin-left: -623px;
+  border-radius: 10px;
+  border: 2px solid #516588;
+  font-size: 38px;
+  color: rgba(197, 203, 225, 1)
+}
+.JumpMain li {
+  width: 25%;
+}
+.JumpMain li a{
+  width: 100%;
+  display: block;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+}
+.JumpMain li a.router-link-active{
+  background: rgba(56, 94, 210, 1);
+}
+/* mapMain --- 地图 */
+.mapMain{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: cover;
+}
+.mapPop{
+  width: 840px;
+  background: rgba(13, 13, 13, 0.9);
+  border-radius: 5px;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  margin-left: -420px;
+  color: #fff;
+  z-index: 1000;
+}
+.mapPop .mapPopTitle{
+  width: 100%;
+  line-height: 77px;
+  font-size: 34px;
+  padding-right: 32px;
+  box-sizing: border-box;
+  background: linear-gradient(270deg, rgba(56, 94, 210, .2) 0%, rgba(56, 94, 210, .5) 100%);
+}
+.mapPop .mapPopTitle span{
+  font-weight: 500;
+  color: #FFFFFF;
+  padding-left: 22px;
+  border-left: 6px solid rgba(56, 94, 210, 1);
+  line-height: 77px;
+  display: block;
+}
+.mapPop .mapPopMain{
+  padding: 19px 19px 23px;
+}
+/* 改变 --- input */
+.changeSelected .el-input__inner{
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  border: 2px solid rgba(53, 126, 255, 0.5);
+  font-size: 20px;
+  color: #fff;
+}
+.changeSelected.el-select .el-input .el-select__caret{
+  color: #fff;
+  font-size: 20px;
+}
+.changeSelected.el-select input::placeholder{
+  color: #fff;
+}
+.el-select-dropdown__item{
+  font-size: 20px;
+}
+/* 改变element table */
+.changetable .el-table{
+  background: none;
+}
+.changetable .el-table th,.changetable .el-table tr{
+  background: none;
+  padding: 17px 0;
+}
+.changetable .el-table td, .changetable .el-table th.is-leaf{
+  border-bottom: 1px solid rgba(147, 174, 206, .1);
+}
+.changetable .el-table::before{
+  height: 0;
+}
+.changetable .el-table th>.cell, .changetable .el-table td>.cell{
+  font-size: 20px;
+  color: #93AECE;
+}
+.changetable .el-table td>.cell{
+  font-size: 22px;
+  color: #fff;
+  line-height: 33px;
+  font-weight: 500;
+}
+.changetable .el-table tbody tr:hover>td {
+  background-color:rgba(0,0,0,.1 )!important;
+}
+/* 改变复选框.el-checkbox__inner */
+.changeCheck .el-checkbox{
+  font-size: 22px;
+}
+.changeCheck .el-checkbox__label{
+  color: #CDDFFF;
+  font-weight: 600;
+  line-height: 20px;
+  margin-top: 2px;
+  font-size: 22px;
+}
+.changeCheck .el-checkbox__inner{
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, .2);
+  border: none;
+}
+.changeCheck .el-checkbox__inner::after{
+  width: 4px;
+  left: 8px;
+  height: 8px;
+  top: 4px;
+}
+.container{
+  width: 8832px;
+  height: 1296px;
+  background: rgba(0,0,0,.8);
+  position: relative;
+}
+.mainContainer{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.titleMain{
+  width: 2896px;
+  position: absolute;
+  height: 83px;
+  background: #fff;
+  background: url(../img/titleBj.png) no-repeat center;
+  background-size: 100% 100%;
+  z-index: 10;
+  left: 50%;
+  top: 26px;
+  margin-left: -1448px;
+}
+.titleMain .mianLine{
+  width: 1271px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.titleMain .mianLine .logo{
+  width: 284px;
+  height: 64px;
+  background: url(../img/logo.png) no-repeat center;
+  background-size: 100%;
+}
+.titleMain .mianLine span{
+  font-size: 66px;
+  font-weight: 600;
+  text-shadow: 0px 2px 32px #385ED2;
+  color: #fff;
+  padding-left: 27px;
+  border-left: 1px solid #fff;
+}
+/* 背景 */
+.backgroundPop{
+  background: rgba(17, 32, 53, 0.8);
+  box-shadow: 0px 0px 34px 0px rgba(31, 83, 173, 0.29);
+  border-radius: 14px;
+  padding: 33px;
+  box-sizing: border-box;
+
+}
+.titleLine{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;
+  padding-bottom: 20px;
+  background: url(../img/titleNameBg.png) no-repeat bottom center;
+  background-size: 100%;
+  width: 100%;
+}
+.titleLine.videoBg{
+  background: url(../img/videoBg.png) no-repeat no-repeat bottom;
+  background-size: 100%;
+}
+.titleLine.rankBg{
+  background: url(../img/rankBg.png) no-repeat no-repeat bottom;
+  background-size: 100%;
+}
+.titleLine .time{
+  font-size: 20px;
+  font-weight: 400;
+  color: #BDCAE2;
+  padding: 10px 5px;
+  background: rgba(53, 126, 255, 0.5);
+  border-radius: 33px;
+}
+.width674{
+  width: 674px;
+}
+.width75{
+  width: 750px;
+}
+.width1000{
+  width: 1000px;
+}
+.width1500{
+  width: 1500px;
+}
+.width1300{
+  width: 1300px;
+}
+.width2844{
+  width: 2844px;
+}
+.width938{
+  width: 938px;
+}
+.height560{
+  height: 560px;
+}
+.mainContainer .showContentsLeft.top274{
+  top: 274px;
+}
+.textTitle{
+  color: #CDDFFF;
+  font-size: 32px;
+  line-height: 45px;
+  text-shadow: 0px 2px 40px #5391FF;
+  height: 45px;
+  padding-left: 50px;
+  box-sizing: border-box;
+}
+.marginBottom{
+  margin-bottom: 27px;
+}
+/* 显示部分 */
+.mainContainer .showContentsLeft{
+  width: 750px;
+  position: absolute;
+  top: 73px;
+}
+.mainContainer .showContentsRight{
+  position: absolute;
+  top: 73px;
+}
+.mainContainer .showContentsRight.right1500{
+  width: 1500px;
+}
+.mainContainer .showContentsRight.right400{
+  width: 400px;
+}
+.mainContainer .showContentsRight.right1671{
+  right: 1671px;
+}
+.mainContainer .showContentsRight.right1679{
+  right: 1679px;
+}
+.mainContainer .showContentsRight.right0{
+  right: 151px;
+}
+.mainContainer .showContentsLeft.left0{
+  left:150px;
+}
+.mainContainer .showContentsLeft.left924{
+  left:924px;
+}
+.mainContainer .left1693{
+  left:1693px;
+}
+.mainContainer .left2993{
+  left:2993px;
+}
+.mainContainer .left1672{
+  left:1672px;
+}
+/* 空气质量 */
+/* 状态 */
+.atmosphericQuality .qualityStatus .statusTop{
+  margin-top: 20px;
+}
+.atmosphericQuality .qualityStatus .statusTop .tubiao {
+  width: 320px;
+  height: 258px;
+  position: relative;
+}
+.atmosphericQuality .qualityStatus .statusTop  .baiopan{
+  width: 320px;
+  height: 240px;
+  padding-top: 10px;
+}
+.atmosphericQuality .qualityStatus .statusTop .tubiao span{
+  font-size: 20px;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 28px;
+  display: block;
+  text-align: center;
+}
+.atmosphericQuality .qualityStatus .statusTop .tubiao .fenshu{
+  position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 131px;
+    top: 97px;
+    border-radius: 100%;
+    border: 2px solid rgba(0, 0, 0, .2);
+    background: linear-gradient(130deg, #142843 0%, #0F1927 100%);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+    line-height: 60px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+.atmosphericQuality .qualityStatus .statusTop  .leftMain .leftText strong, .atmosphericQuality .qualityStatus .statusTop .leftMain .leftText span {
+  display: block;
+}
+.atmosphericQuality .qualityStatus .statusTop  .leftMain .leftText span{
+  font-weight: 400;
+  color: #93AECE;
+  line-height: 36px;
+  font-size: 24px;
+}
+.atmosphericQuality .qualityStatus .statusTop  .leftMain .leftText strong{
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 61px;
+  font-size: 41px;
+}
+.atmosphericQuality .qualityStatus .statusTop  .leftMain .iconTai{
+  width: 87px;
+  height: 87px;
+  background: url(../img/qing.png) no-repeat center;
+  background-size: 100%;
+  margin-left: 28px;
+}
+.atmosphericQuality .qualityStatus .statusBottom{
+  margin-top: 41px;
+
+}
+.atmosphericQuality .qualityStatus .statusBottom li{
+  border: 1px solid #fff;
+  font-size: 16px;
+  padding: 16px 14px;
+  background: #1A1F32;
+  border-radius: 2px;
+  color: #BFD6E9;
+  width: 110px;
+  box-sizing: border-box;
+}
+.atmosphericQuality .qualityStatus .statusBottom li .tiao{
+  width: 32px;
+  height: 4px;
+  background: #1DCEBC;
+  margin-bottom: 2px;
+}
+.atmosphericQuality .qualityStatus .statusBottom li strong{
+  font-size: 24px;
+  font-weight: 500;
+  color: #93AECE;
+  line-height: 33px;
+}
+.atmosphericQuality .qualityStatus .statusBottom li span{
+  font-size: 24px;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 36px;
+  margin-right: 2px;
+}
+.atmosphericQuality .qualityStatus .statusBottom li.lu{
+  border: 1px solid rgba(29, 206, 188, 0.2);
+}
+.atmosphericQuality .qualityStatus .statusBottom li.lu .tiao{
+  background: #1DCEBC;
+}
+.atmosphericQuality .qualityStatus .statusBottom li.yellow{
+  border: 1px solid rgba(246, 180, 3, 0.2);
+}
+.atmosphericQuality .qualityStatus .statusBottom li.yellow .tiao{
+  background: #F6B403;
+}
+.atmosphericQuality .qualityStatus .statusBottom li.red{
+  border: 1px solid rgba(254, 49, 49, 0.2);
+}
+.atmosphericQuality .qualityStatus .statusBottom li.red .tiao{
+  background: #FE3131;
+}
+/* 空气质量---- 质量预测 */
+.atmosphericQuality .airtable{
+  margin-top: 10px;
+}
+.atmosphericQuality .airtable .el-table tr:last-child td{
+  border-bottom: 0;
+}
+.atmosphericQuality .airtable .icon{
+  width: 32px;
+  height: 32px;
+  background: url(../img/qing.png) no-repeat center;
+  background-size: 100%;
+  display: block;
+  margin: 0 auto;
+}
+/* 空气质量 --- 质量分布 */
+.atmosphericQuality .distributionTab{
+  width: 310px;
+  height: 42px;
+  line-height: 42px;
+  font-size: 20px;
+  line-height: 42px;
+  border: 2px solid #357EFF;
+  border-radius: 14px;
+  margin-top: 48px;
+
+}
+.atmosphericQuality .distributionTab li{
+  width: 50%;
+  text-align: center;
+  color: #BDCAE2;
+}
+.atmosphericQuality .distributionTab li.selected{
+  background: #385ED2;
+  font-weight: 600;
+  border-radius: 9px;
+  color: #fff;
+}
+/* 空气质量 === 变化趋势 */
+.atmosphericQuality .changingtrendMain{
+  height: 352px;
+  width: 100%;
+  margin-bottom: 17px;
+}
+.atmosphericQuality .changingtrendTab{
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 40px;
+}
+.atmosphericQuality .changingtrendTab li{
+  padding: 0 20px;
+  line-height: 46px;
+  font-size: 18px;
+  border: 2px solid #357EFF;
+  font-weight: 400;
+  color: #BDCAE2;
+}
+.atmosphericQuality .changingtrendTab li.selected{
+  background: #385ED2;
+}
+/* 空气质量 --- 参数 --- 监测数据 parameterMonitor */
+.atmosphericQuality .parameDate{
+  position: absolute;
+  left: 1694px;
+  top: 73px;
+  width: 220px;
+  font-size: 24px;
+  line-height: 59px;
+}
+.atmosphericQuality .ulTab{
+  background: rgba(32, 41, 63, 0.8);
+  box-shadow: 0px 0px 34px 0px rgba(31, 83, 173, 0.29);
+  border-radius: 8px;
+  border: 1px solid rgba(53, 126, 255, 0.5);
+  margin-bottom: 6px;
+}
+.atmosphericQuality .ulTab>ul li{
+  border-bottom: 1px solid rgba(255, 255, 255, .1);
+  color: #fff;
+  text-align: center;
+  color:rgba(191, 214, 233, 1);
+  cursor: pointer;
+}
+.atmosphericQuality .parame>ul li.selected{
+  background: linear-gradient(360deg, rgba(53, 126, 255, 0.6) 0%, rgba(100, 155, 253, 0.1) 100%);
+  border: 1px solid #4C8DFF;
+  color: #fff;
+  font-weight: 500;
+}
+.atmosphericQuality .parame>ul li:last-child{
+  border-bottom: 0;
+}
+.atmosphericQuality .biaotou{
+  background: #243553;
+  border-radius: 9px;
+  color: #fff;
+  padding: 0 23px;
+  box-sizing: border-box;
+}
+.atmosphericQuality .iconRadio{
+  position: relative;
+  margin-left: 26px;
+  margin-top: 2px;
+}
+.atmosphericQuality .iconRadio:before{
+  content:"";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #8E1C10;
+  left: -26px;
+  top: 10px;
+}
+.atmosphericQuality .iconRadio.guo:before{
+  background: url(../img/guo.png) no-repeat center;
+  background-image: 100%;
+}
+.atmosphericQuality .iconRadio.sheng:before{
+  background: url(../img/sheng.png) no-repeat center;
+  background-image: 100%;
+}
+.atmosphericQuality .iconRadio.shi:before{
+  background: url(../img/shi.png) no-repeat center;
+  background-image: 100%;
+}
+.atmosphericQuality .iconRadio.wei:before{
+  background: url(../img/wei.png) no-repeat center;
+  background-image: 100%;
+}
+.atmosphericQuality .iconRadio.video:before{
+  background: url(../img/video.png) no-repeat center;
+  background-image: 100%;
+}
+/*  空气质量 --- 考核排名 parameterMonitor  */
+.atmosphericQuality .ranking .backgroundPop{
+  height: 1150px;
+  box-sizing: border-box;
+}
+.atmosphericQuality .ranking .textTab{
+  height: 42px;
+  line-height:  42px;
+  border-radius: 9px;
+  border: 1px solid rgba(53, 126, 255, .5);
+  font-size: 24px;
+}
+.atmosphericQuality .ranking .textTab li{
+  padding: 0 29px;
+  color: #BDCAE2;
+  cursor: pointer;
+}
+.atmosphericQuality .ranking .textTab li.selected{
+  background: #385ED2;
+  border-radius: 9px;
+  color: #fff;
+  font-weight: 500;
+}
+.atmosphericQuality .rankMain{
+  width: 100%;
+  margin-top: 28px;
+}
+.atmosphericQuality .rankMain ul{
+  width: 45%;
+}
+.atmosphericQuality .rankMain ul .textTitle{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.atmosphericQuality .rankMain ul .rankMainTab{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+.atmosphericQuality .rankingTable .el-table td,.rankingTable .el-table th{
+  padding: 23px 0 23px;
+}
+.atmosphericQuality .rankingTable .el-table th{
+  background: rgba(56, 94, 210, 0.5);
+}
+.atmosphericQuality .rankingTable .el-table td{
+  background: rgba(97, 125, 158, .1);
+}
+.atmosphericQuality .rankingTable .el-table td, .rankingTable .el-table th.is-leaf{
+  border-bottom: 0;
+}
+.atmosphericQuality .rankingTable .el-table td>.cell{
+  font-size: 24px;
+  font-weight: 600;
+}
+/* 空气质量 --- 审核视频 */
+.atmosphericQuality .video .videoMain{
+  width: 326px;
+  height: 1150px;
+  box-sizing: border-box;
+}
+/* 空气质量 --- 审核视频 */
+.atmosphericQuality .video .backgroundPop{
+  height: 1150px;
+}
+.atmosphericQuality .video .videoMain li{
+  width: 100%;
+  height: 217px;
+  margin-top: 32px;
+  background: red;
+}
+.mapPop.atmospher .mapPopMain .TopLine{
+  border-bottom: 1px solid rgba(84, 101, 126, 1);
+  padding-bottom: 20px;
+}
+.mapPop.atmospher .mapPopMain .TopLine strong{
+  font-size: 36px;
+  color: rgba(241, 157, 56, 1);
+  font-weight: bold;
+}
+.mapPop.atmospher .mapPopMain .TopLine .iconMap{
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin-right: 10px;
+}
+.mapPop.atmospher .mapPopMain .TopLine .iconMap.iconMaptianqi{
+  background: url(../img/tianqi.png) no-repeat center;
+  background-size: 100%;
+}
+.mapPop.atmospher .mapPopMain .TopLine .iconMap.iconMapwd{
+  background: url(../img/wendu.png) no-repeat center;
+  background-size: 45%;
+}
+.mapPop.atmospher .mapPopMain .TopLine .iconMap.iconMapfeng{
+  background: url(../img/feng.png) no-repeat center;
+  background-size: 100%;
+}
+.mapPop.atmospher .mapPopMain .TopLine .iconMap.iconMapsd{
+  background: url(../img/shidu.png) no-repeat center;
+  background-size: 70%;
+}
+.mapPop.atmospher .mapPopMain .TopLine  ul li{
+  margin-left: 52px;
+}
+.mapPop.atmospher .mapPopMain .mapMainUl{
+  padding: 20px 10px;
+  font-size: 24px;
+  border-bottom: 1px solid rgba(84, 101, 126, 1);
+}
+.mapPop.atmospher .mapPopMain .mapMainUl .name{
+  font-size: 24px;
+  border-bottom: 1px solid rgba(84, 101, 126, .5);
+  width: 46px;
+  padding-bottom: 10px;
+  margin-bottom: 11px;
+}
+.mapPop.atmospher .mapPopMain .mapMainUl .num{
+  font-size: 14px;
+  font-weight: bold;
+}
+.mapPop.atmospher .mapPopMain .mapMainUl .num span{
+  font-size: 24px;
+}
+.mapPop.atmospher .mainTopEchars{
+  padding-top: 29px;
+}
+.mapPop.atmospher .mainTopEchars span{
+  font-size: 20px;
+  color: rgba(191, 214, 233, 1);
+}
+/* 协同调度 */
+/* 协同调度 --- 协同人员在线情况 */
+.collaborative .onlineTable{
+  margin-top: 20px;
+}
+/* 协同调度 --- 协同人员任务统计 */
+.collaborative .taskStatistics .taskStatisticsTitle{
+  margin: 0 auto;
+  width: 477px;
+  padding: 10px 10px;
+  background: rgba(49, 254, 152, .1);
+  border-radius: 31px;
+  border: 2px solid rgba(49, 254, 152, 1);
+  color: rgba(205, 223, 255, 1);
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  /* box-shadow: 0px 0px 80px 10px rgba(0, 175, 255, 0.28), 0px -95px 99px 0px rgba(49, 254, 152, 0.3); */
+}
+.collaborative .taskStatisticsMain{
+  height: 323px;
+  width: 100%;
+}
+.collaborative .taskStatistics .taskStatisticsTitle strong{
+  font-size: 24px;
+  font-weight: bold;
+}
+.collaborative .taskStatistics .taskStatisticsTitle span{
+  font-size: 24px;
+  margin-right: 10px;
+}
+.collaborative .taskStatistics .taskStatisticsTitle .big{
+  font-size: 24px;
+  color: rgba(49, 254, 152, 1);
+  padding: 0 10px;
+}
+/* 协同调度 --- 协同任务区域排名 */
+.collaborative .regionRank .regionMain{
+  width: 100%;
+  margin-top: 29px;
+}
+.collaborative .regionRank .regionRankMain{
+  height: 406px;
+  width: 100%;
+}
+/* 协同调度 --- 当前协同任务 */
+.mainContainer .showContentsRight.right1181{
+  right: 1181px;
+}
+.mainContainer .showContentsRight.right1171{
+  right: 1171px;
+}
+.mainContainer .showContentsRight.right2193{
+  right: 2193px;
+}
+.collaborative .currentTask{
+  width: 1000px;
+  height: 1150px;
+}
+.collaborative .currentTable{
+  margin-top: 25px;
+}
+.collaborative .currentTable .el-table td, .collaborative .currentTable .el-table th.is-leaf{
+  border-bottom: 0;
+}
+.collaborative .currentTable  .el-table td>.cell{
+  color:rgba(191, 214, 233, 1);
+  font-weight: normal;
+  line-height: 35px;
+}
+.collaborative .currentTable .el-table td{
+  background: rgba(97, 125, 158, .1);
+  padding: 20px 0;
+  line-height: 35px;
+}
+.collaborative .currentTable .el-table th{
+  padding: 20px 0;
+  line-height: 35px;
+}
+/* 协同调度 --- 超时事件timeoutTask */
+.collaborative .timeoutTask{
+  width: 1000px;
+  height: 1150px;
+}
+.collaborative .timeoutTask .timeoutTable{
+  margin-top: 23px;
+  height: 430px;
+  margin-bottom: 54px;
+}
+.collaborative .timeoutTask .el-table td, .collaborative .timeoutTask .el-table th.is-leaf{
+  border-bottom: 0;
+}
+.collaborative .timeoutTask  .el-table td>.cell{
+  color:rgba(191, 214, 233, 1);
+  font-weight: normal;
+  line-height: 35px;
+}
+.collaborative .timeoutTask .el-table th{
+  padding: 20px 0;
+  line-height: 35px;
+}
+.collaborative .timeoutTask .el-table td{
+  background: rgba(97, 125, 158, .1);
+
+}
+.collaborative .timeoutTable .time{
+  width: 110px;
+  height: 32px;
+  background: red;
+  margin: 0 auto;
+}
+/* 区域考核排名 */
+.collaborative .assessmentRank{
+  width: 100%;
+  height: 440px;
+  margin-top: 20px;
+}
+.collaborativePop .mapPopMain>div{
+  font-size: 28px;
+  font-weight: 500;
+  color: #FFFFFF;
+  line-height: 40px;
+  padding-bottom: 9px;
+}
+.collaborativePop .mapPopMain>ul>li{
+  font-size: 24px;
+}
+.collaborativePop .mapPopMain>ul>li>strong{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.collaborativePop .mapSign{
+  left: 1697px;
+  bottom: 216px;
+  position: absolute;
+  background: rgba(32, 41, 63, 0.8);
+  box-shadow: 0px 0px 34px 0px rgba(31, 83, 173, 0.29);
+  border-radius: 8px;
+  border: 1px solid rgba(53, 126, 255, 0.5);
+  width: 220px;
+}
+.collaborativePop .mapSign.people{
+  left: 1976px;
+  bottom: 336px;
+}
+.collaborativePop .mapSign ul li{
+  line-height: 62px;
+  border: 1px solid rgba(255, 255, 255, .1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.collaborativePop .mapSign ul li i{
+  width: 29px;
+  height: 29px;
+  background: #8E1C10;
+  margin-right: 10px;
+  display: block;
+}
+.collaborativePop .mapSign ul li i.xun{
+  background: url(../img/xun.png) no-repeat center;
+  background-size: 80%;
+}
+.collaborativePop .mapSign ul li i.pai{
+  background: url(../img/pai.png) no-repeat center;
+  background-size: 80%;
+}
+.collaborativePop .mapSign ul li i.guan{
+  background: url(../img/guan.png) no-repeat center;
+  background-size: 80%;
+}
+.collaborativePop .mapSign ul li i.fu{
+  background: url(../img/xun.png) no-repeat center;
+  background-size: 80%;
+}
+.collaborativePop .mapSign ul li i.online{
+  background: url(../img/zaixian.png) no-repeat center;
+  background-size: 80%;
+}
+.collaborativePop .mapSign ul li i.noline{
+  background: url(../img/nozaixian.png) no-repeat center;
+  background-size: 80%;
+}
+.collaborative .leftTab{
+  position: absolute;
+  top: 78px;
+  left: 1698px;
+}
+.collaborative .leftTab>div{
+  width: 220px;
+  height: 60px;
+  line-height: 60px;
+  background: #243553;
+  border-radius: 9px;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.collaborative .leftTab>div.selected{
+  background: rgba(56, 94, 210, 1);
+}
+/* 水环境----断面达标率 */
+.waterEnvironment .sectionRatioMain{
+  margin-top: 26px;
+}
+.waterEnvironment .sectionRatioMain .sectionTab{
+  width: 480px;
+  height: 42px;
+  line-height: 42px;
+  border-radius: 9px;
+  border: 1px solid rgba(53, 126, 255, .5);
+  margin: 0 auto 20px;
+}
+.waterEnvironment .sectionRatioMain .sectionTab li{
+  width: 25%;
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+}
+.waterEnvironment .sectionRatioMain .sectionTab li.selected{
+  background: #385ED2;
+  border-radius: 9px;
+}
+.waterEnvironment .sectionRatioMain .mainEchars{
+  width: 100%;
+  height: 252px;
+  margin-bottom: 40px;
+}
+.waterEnvironment .situationEchars{
+  width: 100%;
+  height: 218px;
+  margin-bottom: 23px;
+}
+.waterEnvironment .situationEcharsCon{
+  position: relative;
+}
+.waterEnvironment .situationEcharsCon .echarsCenter{
+  position: absolute;
+  left: 68px;
+  top: 38px;
+  width: 130px;
+  height: 130px;
+  border: 4px solid rgba(84, 101, 126, 0.6);
+  border-radius: 100%;
+  text-align: center;
+}
+.waterEnvironment .situationEcharsCon .echarsCenter span,.waterEnvironment .situationEcharsCon .echarsCenter strong{
+  display: block;
+  font-size: 28px;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 40px;
+}
+.waterEnvironment .situationEcharsCon .echarsCenter span{
+  font-size: 18px;
+  font-weight: normal;
+  color: rgba(255, 255, 255, .7);
+  margin-top: 8px;
+}
+.pr{
+  position: relative;
+}
+.waterEnvironment .mainEcharsRound{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  background: url(../img/waterbg.png) no-repeat top center;
+  background-size: 100%;
+  left: 44%;
+  top: 33%;
+}
+.waterEnvironment .mainEcharsRound .iconWater{
+  width: 20px;
+  height: 20px;
+  background: url("../img/waterlogo.png") no-repeat top center;
+  background-size: 100%;
+  margin: 18px auto 0;
+}
+.waterEnvironment .mainEcharsRound strong{
+  font-size: 36px;
+  line-height: 55px;
+  display: block;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+.waterEnvironment .mainEcharsRound span{
+  font-size: 18px;
+  display: block;
+  text-align: center;
+  color: #fff;
+}
+.waterEnvironment .width75s{
+  width: 750px;
+  height: 1150px;
+}
+.waterEnvironment .sectionRatioTable .el-table td>.cell{
+  color:rgba(191, 214, 233, 1);
+}
+/* 地表水达标情况 */
+.waterEnvironment .SurfaceWater{
+  margin-top: 22px;
+
+}
+.waterEnvironment .SurfaceWater .mainEchars{
+  width: 100%;
+  height: 225px;
+  background: rgba(241, 157, 56, 1);
+  margin-bottom: 73px;
+}
+.waterEnvironment .SurfaceWater .progressWater{
+  width: 100%;
+  padding-top: 67px;
+  margin-bottom: 59px;
+}
+.waterEnvironment .SurfaceWater .progressWater .progressBlock{
+  position: absolute;
+  width: 125px;
+  height: 36px;
+  background: url(../img/procressIcon.png) no-repeat right;
+  background-size: 100%;
+  top: -51px;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  color: #fff;
+  right: 1px;
+}
+.waterEnvironment .SurfaceWater .progressWater .progressBlock .xian{
+  width: 2px;
+  height: 32px;
+  background: rgba(55, 107, 212, 1);
+  position: absolute;
+  right: -1px;
+  top: 18px;
+}
+.waterEnvironment .SurfaceWater .progressWater .progressText{
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 20px;
+  color: #FDFDFD;
+  font-weight: 600;
+  background: rgba(66, 128, 255, 1);
+  border-radius: 5px;
+}
+.waterEnvironment .SurfaceWater .progressWater .progressMain{
+  width: calc(100% - 85px);
+  border-radius: 2px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(0, 0, 0, 0.4);
+  height: 30px;
+}
+.waterEnvironment .SurfaceWater .progressMainColor{
+  height: 30px;
+  background: linear-gradient(87deg, rgba(174, 199, 251, 0.9) 0%, rgba(93, 147, 255, 0.9) 49%, rgba(92, 146, 255, 0.9) 55%, rgba(93, 146, 255, 0.9) 67%, rgba(66, 128, 255, 0.9) 100%);
+  border-radius: 2px 0px 0px 2px;
+  position: relative;
+}
+.waterEnvironment .SurfaceWater .riverMain{
+  height: 387px;
+  width: 100%;
+  margin-top: 40px;
+}
+.waterEnvironment .SurfaceWater .riverMain .riverEchars{
+  width: 100%;
+  height: 100%;
+}
+.waterEnvironment .SurfaceWater .riverTitle .text{
+  background: rgba(0, 0, 0, 1);
+  padding:  16px 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 24px;
+}
+.iconM{
+  width: 30px;
+  height: 30px;
+  background: url(../img/mubiao.png) no-repeat center;
+  background-size: 100%;
+  margin-right: 5px;
+}
+.waterEnvironment .SurfaceWater .riverMain .text strong{
+  margin-left: 24px;
+}
+/* 视频 */
+.waterEnvironment .videoMain{
+  width: 1000px;
+  height: 1150px;
+}
+.waterEnvironment .videoMain ul{
+  margin-top: 10px;
+}
+.waterEnvironment .videoMain ul li{
+  width: 407px;
+  margin-top: 20px ;
+}
+.waterEnvironment .videoMain ul li .img{
+  width: 100%;
+  height: 271px;
+  background: #CDDFFF;
+}
+.waterEnvironment .videoMain ul li span{
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  display: block;
+  margin-top: 15px;
+}
+/* 水环境 --- 水质排名 */
+.waterEnvironment .waterRankMain{
+  margin-top: 37px;
+  height: 484px;
+}
+.waterEnvironment .waterRankMain .el-select{
+  width: 140px;
+}
+.waterEnvironment .waterRankMainTab ul{
+  height: 42px;
+  line-height: 42px;
+  border-radius: 9px;
+  color: rgba(189, 202, 226, 1);
+  font-size: 24px;
+  border: 1px solid rgba(53, 126, 255, .5);
+}
+.waterEnvironment .waterRankMainTab ul li{
+  padding: 0 20px;
+}
+.waterEnvironment .waterRankMainTab ul li.selected{
+  background: #385ED2;
+  border-radius: 9px;
+  line-height: 42px;
+}
+.waterEnvironment .waterRankMain .waterRankEchars{
+  width: 100%;
+  height: 363px;
+  margin: 21px 0 60px;
+  /* background: #5391FF; */
+}
+.waterEnvironment .waterRankType{
+  width: 1000px;
+}
+.waterEnvironment  .waterType .waterTypeEchars{
+  width: 100%;
+  height: 451px;
+  /* background: #1DCEBC; */
+  margin-top: 20px;
+}
+/* 水质类别同比变化 */
+.waterEnvironment .contrastYear{
+  height: 1150px;
+  position: relative;
+}
+.waterEnvironment .contrastYear .contrastYearMain{
+  margin-top: 28px;
+}
+.waterEnvironment .contrastYear .contrastYearMain li{
+  margin-bottom: 53px;
+}
+.waterEnvironment .contrastYear .contrastYearMain li:last-child{
+  margin-bottom: 24px;
+}
+.waterEnvironment .contrastYear .contrastYearMain .typeDiv{
+  width: 231px;
+}
+.waterEnvironment .contrastYear .contrastYearMain .typeBlock{
+  width: 10px;
+  /* background: #1DCEBC; */
+  height: 30px;
+  margin-left: 3px;
+}
+.waterEnvironment .contrastYear .contrastYearMain span{
+  display: block;
+  width: 150px;
+  text-align: left;
+  font-size: 26px;
+  /* font-weight: 600; */
+  color: #fff;
+
+}
+.waterEnvironment .contrastYear .contrastYearMain .year>span{
+  width: 231px;
+  text-align: center;
+}
+.waterEnvironment .contrastYear .biaozhu{
+  position: absolute;
+  left: -30px;
+  width: 9px;
+  bottom: 0;
+}
+
+.waterEnvironment .contrastYear .biaozhu>div{
+  width: 100%;
+  height: 47px;
+}
+/* 弹窗---样式 */
+.axeHeadLake .waterEnvironMap .mapPop{
+  width: 1400px;
+}
+.axeHeadLake .waterEnvironMap .mapPop .mapPopTitle ul li{
+  color: #BFD6E9;
+  font-size: 24px;
+  margin-right: 77px;
+}
+.axeHeadLake .waterEnvironMap .mapPop .mapPopTitle ul li strong{
+  color: #fff;
+}
+.marginLeft128{
+  margin-right: 128px;
+}
+.axeHeadLake .waterEnvironMap  .warnLine{
+  color: rgba(189, 202, 226, 1);
+  font-size: 24px;
+  margin-bottom: 19px;
+  height: 40px;
+  line-height: 40px;
+}
+.axeHeadLake .waterEnvironMap  .warnLine strong{
+  color: #fff;
+}
+.axeHeadLake .waterEnvironMap  .warnLine .warnStrong{
+  line-height: 40px;
+  border-radius: 9px;
+  padding: 0 14px;
+}
+.warnText{
+  background: rgba(224, 32, 32, 0.6);
+}
+.axeHeadLake .waterEnvironMap .listMain{
+  border-top: 1px solid rgba(84, 101, 126, 1);
+  border-bottom: 1px solid rgba(84, 101, 126, 1);
+  padding: 12px 0;
+  box-sizing: border-box;
+}
+.axeHeadLake .waterEnvironMap .listMain li{
+  margin-right: 46px;
+}
+.axeHeadLake .waterEnvironMap .listMain li:last-child{
+  margin-right: 0;
+}
+.axeHeadLake .waterEnvironMap .listMain strong, .axeHeadLake .waterEnvironMap .listMain span{
+  display: block;
+  font-size: 24px;
+}
+.axeHeadLake .waterEnvironMap .listMain strong{
+  padding-bottom: 9px;
+  border-bottom: 1px solid  rgba(84, 101, 126, .5);
+}
+.axeHeadLake .waterEnvironMap .listMain span{
+  margin-top: 9px;
+}
+.axeHeadLake .waterEnvironMap .mapEchars{
+  height: 280px;
+  width: 100%;
+  /* background: #F6B403; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.axeHeadLake .waterEnvironMap .mapTypeList li{
+  padding: 0 33px;
+  line-height: 36px;
+  font-size: 24px;
+  border: 1px solid rgba(53, 126, 255, 1);
+  margin-right: 10px;
+}
+.axeHeadLake .waterEnvironMap .mapTypeList li.selected{
+  background: rgba(56, 94, 210, 1);
+  font-weight: bold;
+}
+/* 监测数据 */
+.jcMain{
+  width: 220px;
+  position: absolute;
+  top: 73px;
+}
+.jcMainList{
+  background: rgba(32, 41, 63, 0.8);
+  box-shadow: 0px 0px 34px 0px rgba(31, 83, 173, 0.29);
+  border-radius: 8px;
+  border: 1px solid rgba(53, 126, 255, 0.5);
+}
+.titlejc{
+  height: 60px;
+  background: #243553;
+  border-radius: 9px;
+  color: #fff;
+  padding: 0 23px;
+  box-sizing: border-box;
+  font-size: 24px;
+}
+/* 斧头湖 --- 水质情况 */
+.marginTop26{
+  margin-top: 26px;
+}
+.marginTop16{
+  margin-top: 16px;
+}
+.marginTop44{
+  margin-top: 44px;
+}
+.axeHeadLake  .qalityTab{
+  width: 100%;
+  border-radius: 9px;
+  border: 1px solid rgba(53, 126, 255, .5);
+  line-height: 42px;
+  font-size: 28px;
+  color: #fff;
+}
+.axeHeadLake  .qalityTab .qalityTabLi{
+  width: 33%;
+  text-align: center;
+  cursor: pointer;
+}
+.axeHeadLake  .qalityTab .qalityTabLi.seletecd{
+  background: rgba(56, 94, 210, 1);
+  border-radius: 9px;
+}
+.axeHeadLake .qalityTarget .qalityMain span{
+  text-align: center;
+  display: block;
+  padding: 28px 0 33px;
+  font-size: 24px;
+  color: rgba(191, 214, 233, 1);
+}
+#qalityTargetEchars{
+  width: 100%;
+  height: 200px;
+  margin-bottom: 26px;
+  /* background: #F6B403; */
+}
+/* 斧头湖 --- 水质目标 */
+.axeHeadLake .target .targetTabMain{
+  width: 100%;
+}
+.axeHeadLake .target .targetCon .targetTabMain.selected{
+  width: 100%;
+  height: 498px;
+}
+.axeHeadLake .target .targetCon .targetTabMain{
+  background: rgba(97, 125, 158, .1);
+  padding: 39px 5px 0;
+  box-sizing: border-box;
+  width: 100%;
+  /* height: 0; */
+}
+.axeHeadLake .target .targetCon .qulityTabLine .lineList span{
+  font-size: 24px;
+  line-height: 40px;
+  color: rgba(191, 214, 233, 1);
+}
+.axeHeadLake .target .targetCon .qulityTabLine .lineList strong{
+  font-size: 24px;
+  line-height: 40px;
+  width: 100px;
+  display: block;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+}
+.axeHeadLake .target .targetCon .itemTabMain{
+  margin-top: 45px;
+  /* position: absolute; */
+  width: 100%;
+}
+.axeHeadLake .target .targetCon .itemTabMain .itemLi{
+  color: rgba(255, 255, 255, .8);
+  font-size: 24px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+.axeHeadLake .target .targetCon .itemTabMain .swiperTab{
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+}
+.axeHeadLake .target .targetCon .itemTabMain .swiperPrev{
+  left: -34px;
+  width: 30px;
+  height: 30px;
+  background: rgba(53, 126, 255, .8);
+  border-radius: 5px;
+}
+.axeHeadLake .target .targetCon .itemTabMain .el-icon-arrow-left, .axeHeadLake .target .targetCon .itemTabMain .el-icon-arrow-right{
+  font-size: 20px;
+  color: #fff;
+}
+.axeHeadLake .target .targetCon .itemTabMain .swiperNext{
+  right: -34px;
+  width: 30px;
+  height: 30px;
+  background: rgba(53, 126, 255, .8);
+  border-radius: 5px;
+}
+
+/* .axeHeadLake .target .targetCon .itemTabMain>ul li:last-child{
+  margin-right: 0;
+} */
+.axeHeadLake .target .targetCon .itemTabMain .itemLi.selected{
+  color: #fff;
+  font-weight: bold;
+  border-bottom: 3px solid #5391FF;
+}
+.axeHeadLake .target .targetCon  .itemListIntord{
+  line-height: 50px;
+  background: linear-gradient(90deg, rgba(0, 0, 0, .3) 0%, rgba(35, 57, 124, .3) 79%, rgba(56, 94, 210, .3) 100%);
+  color: #fff;
+  font-size: 24px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+.axeHeadLake .target .targetCon .mubiao{
+  width: 20px;
+  height: 20px;
+  background: url(../img/mubiao.png) no-repeat center;
+  background-size: 100%;
+  display: block;
+}
+.marginLeft106{
+  margin-left: 106px;
+}
+.yellowTarge{
+  background: rgba(255, 188, 0, 1);
+}
+.luTarge{
+  background: rgba(48, 195, 224, 1);
+}
+/* 斧头湖 --- 浮船在线监测 */
+.axeHeadLake .onLineMonitoring .qalityTab{
+  width: 65%;
+}
+.axeHeadLake .onLineMonitoring .onLineSelected{
+  width: 140px;
+}
+.axeHeadLake .onLineMonitoring .onLineEchars{
+  margin-top: 50px;
+  width: 100%;
+  height: 345px;
+  /* background: #F6B403; */
+  margin-bottom: 72px;
+}
+/* 斧头湖 --- 重点污染源排放量 */
+.axeHeadLake .emissionsTable {
+  margin-bottom: 37px;
+}
+/* 斧头湖 --- 排口排查 */
+.axeHeadLake .outletInvestigation .outletMainList{
+  width: 238px;
+  line-height: 55px;
+  background: linear-gradient(90deg, #126C7D 0%, rgba(16, 32, 54, 0.7) 100%);
+  margin-top: 58px;
+  padding: 0 15px;
+  box-sizing: border-box;
+  margin-bottom: 56px;
+}
+.axeHeadLake .outletInvestigation .outletMainList span{
+  font-size: 24px;
+  color: #fff;
+}
+.axeHeadLake .outletInvestigation .outletMainList strong{
+  font-size: 36px;
+  color: #fff;
+}
+/* 河流水质变化趋势 */
+.axeHeadLake .trend{
+  margin-bottom: 74px;
+}
+.axeHeadLake .trend .trendCon{
+  width: 100%;
+  height: 385px;
+  position: relative;
+}
+.axeHeadLake .trend .trendCon .trendSelectMain{
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+}
+.axeHeadLake .trend .trendEchars{
+  width: 100%;
+  height: 321px;
+  /* background: #5391FF; */
+}
+.axeHeadLake .trend .trendList{
+  padding: 0 10px;
+  border: 1px solid #5391FF;
+  margin-right: 10px;
+  font-size: 24px;
+  color: #BFD6E9;
+  line-height: 46px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.axeHeadLake .trend .trendList.selected{
+  background: #5391FF;
+  color: #fff;
+  font-weight: bold;
+}
+.axeHeadLake .dyeChangeTab  .qalityTab {
+  width: 467px;
+}
+#dyeChangeEchars{
+  width: 100%;
+  height: 355px;
+  /* background: #5391FF; */
+  margin-top: 26px;
+}
+/* 斧头湖--- 参数 */
+.waterEnvironment .waterRadioMain{
+  width: 220px;
+  position: absolute;
+  top: 73px;
+  background: rgba(32, 41, 63, 0.8);
+  box-shadow: 0px 0px 34px 0px rgba(31, 83, 173, 0.29);
+  border-radius: 8px;
+  border: 1px solid rgba(53, 126, 255, 0.5);
+}
+.waterEnvironment .waterRadioMain .titlejc{
+  height: 60px;
+  background: #243553;
+  border-radius: 9px;
+  color: #fff;
+  padding: 0 23px;
+  box-sizing: border-box;
+  font-size: 24px;
+}
+
+/* 区域环境 */
+.regionalEnvironment .regionalCon>div{
+  width: 672px;
+}
+.regionalEnvironment .regionalCon{
+  height: 530px;
+}
+.regionalEnvironment .regionalCon .changetable .el-table td{
+  border-bottom: none;
+}
+.regionalEnvironment .regionalCon .changetable .el-table tr:nth-child(2n) td{
+  background: rgba(172, 165, 165, .1);
+}
+.regionalEnvironment .questionMain>div{
+  width: 672px;
+}
+.regionalEnvironment .questionRegionCon{
+  position: relative;
+  width: 100%;
+  height: 473px;
+}
+.regionalEnvironment .questionRegionCon .questionRound{
+  position: absolute;
+  background: #8E1C10;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.regionalEnvironment .questionRegionCon .questionRound>div{
+  width: 100%;
+  text-align: center;
+}
+.regionalEnvironment .questionRegionCon .questionRound>div.num{
+  font-size: 54px;
+  color: #fff;
+  line-height: 30px;
+}
+.regionalEnvironment .questionRegionCon .questionRound>div.num .name{
+  font-size: 20px;
+  color: #fff;
+  line-height: 30px;
+  margin-top: 10px;
+}
+.regionalEnvironment .questionRegionCon .questionRound.zi{
+  background: linear-gradient(176deg, rgba(204, 66, 91, 0.8) 0%, rgba(102, 105, 255, 0.6) 51%, rgba(102, 105, 255, 0.8) 100%);
+}
+.regionalEnvironment .questionRegionCon .questionRound.lu{
+  background: linear-gradient(180deg, rgba(49, 245, 165, 0.4) 0%, #385ED2 100%);
+}
+.regionalEnvironment .questionRegionCon .questionRound.lan{
+  background: rgba(63, 127, 158, 1);
+}
+/* 空气质量考核 --- 优良天同比变化 */
+.regionalEnvironment .airQuality .airMain{
+  width: 100%;
+  height: 347px;
+  margin-bottom: 62px;
+}
+.regionalEnvironment .rankDay .rankDayMain{
+  width: 100%;
+  height: 450px;
+}
+/* 空气质量考核  */
+.regionalEnvironment .waterStandard{
+  width: 645px;
+}
+.tabUl{
+  border-radius: 9px;
+  border: 1px solid rgba(53, 126, 255, .5);
+  color: #fff;
+}
+.tabUl .tabLi{
+  padding: 0 57px;
+  line-height: 42px;
+  cursor: pointer;
+}
+.tabUl .tabLi.selected{
+  background: #385ED2;
+  border-radius: 9px;
+}
+.regionalEnvironment .waterStandardTable.changetable .el-table td>.cell{
+  font-weight: normal;
+}
+.regionalEnvironment .waterStandardTable .bigNum{
+  padding: 0 8px;
+  border: 1px solid rgba(248, 201, 0, .5);
+  color: rgba(248, 201, 0, 1);
+  font-weight: bold;
+  width: 76px;
+  box-sizing: border-box;
+  line-height: 33px;
+  margin-left: 10px;
+}
+.regionalEnvironment .waterStandardTable.changetable .el-table td{
+  border: none;
+}
+.colorYW{
+  color: rgba(248, 201, 0, 1)
+}
+.regionalEnvironment .siteTable.changetable,.regionalEnvironment .assessmentTable.changetable{
+  background: rgba(97, 125, 158, .1);
+}
+.regionalEnvironment .siteTable.changetable .el-table th.is-leaf,.regionalEnvironment .assessmentTable.changetable .el-table th.is-leaf{
+  border-bottom: 1px solid rgba(53, 126, 255, 0.2);
+}
+/*  */
+.regionalEnvironment .airWuranSelected{
+  width: 124px;
+}
+.regionalEnvironment .airWuRanEchart{
+  width: 100%;
+  height: 351px;
+}
+.regionalEnvironment .WuRan {
+  position: relative;
+}
+.regionalEnvironment .WuRan .tabUl{
+  position: absolute;
+  top: 52px;
+}
+.regionalEnvironment .listTab{
+  width: 100%;
+  margin-left: 20px;
+}
+.regionalEnvironment .listTab li{
+  padding: 0 64px;
+  line-height: 46px;
+  text-align: center;
+  color: #fff;
+  border: 1px solid rgba(53, 126, 255, .4);
+  margin-right: 20px;
+  cursor: pointer;
+}
+.regionalEnvironment .listTab li.selected{
+  background: #385ED2;
+}
+.regionalEnvironment .waterStadardMain{
+  width: 559px;
+  padding-bottom: 40px;
+}
+.regionalEnvironment .waterStadardMain .mainTitle{
+  padding: 10px 16px;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 28px;
+  background: linear-gradient(90deg, rgba(0, 0, 0, .3) 0%, rgba(35, 57, 124, .3) 79%,rgba(56, 94, 210, .3) 100%);
+}
+.regionalEnvironment .waterStadardMain .iconMubiao{
+  width: 25px;
+  height: 25px;
+  background: url(../img/mubiao.png) no-repeat center;
+  background-size: 100%;
+  margin-right: 10px;
+  display: block;
+}
+.regionalEnvironment .waterStadardMain .waterStadardEchars{
+  width: 100%;
+  height: 250px;
+  padding-top: 20px;
+}
+.regionalEnvironment .airEcharsMain{
+  width: 367px;
+  height: 347px;
+  position: relative;
+  border-radius: 9px;
+  z-index: 0;
+}
+.colorAirL{
+  background: rgba(21, 59, 213, 0.7);
+}
+.colorAirG{
+  background: rgba(84, 170, 205, 0.7);
+}
+.colorAirZ{
+  background: rgba(144, 30, 212, 0.7);
+}
+.regionalEnvironment .airEcharsMain .airMain{
+  width: 100%;
+  height: 100%;
+}
+.airEchars{
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  left: 118px;
+  top: 91px;
+  z-index: -1;
+}
+.airEchars.echars1{
+  background: url(../img/airEchars.png) no-repeat center;
+  background-size: 100%;
+}
+.airEchars.echars2{
+  background: url(../img/airEchars2.png) no-repeat center;
+  background-size: 100%;
+}
+.airEchars.echars3{
+  background: url(../img/airEcharsZ.png) no-repeat center;
+  background-size: 100%;
+}
+.regionalEnvironment .floodWaterMain{
+  width: 100%;
+  height: 701px;
+}
+.regionalEnvironment .trendUl{
+  padding: 0 40px;
+}
+.regionalEnvironment .trendLi{
+  font-size: 24px;
+  color: rgba(191, 214, 233, 1)
+}
+.regionalEnvironment .trendBlock{
+  width: 30px;
+  height: 20px;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+.mapContainer{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
